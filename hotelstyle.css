@@ -1,0 +1,111 @@
+body {
+  margin: 0;
+  background-image: url(source.gif);
+  background-size: 100% 100%;
+  font-family: Cambria, Georgia, serif;
+}
+input {
+  border: outset;
+  color:  black;
+  text-align: center;
+  font-size: 12px;
+}
+#logo {
+  color: white;
+  background-image:url(download.jpeg);
+  background-size: cover;
+  border-style: groove;
+  border-radius: 20px;
+  text-align:center;
+  border-color: black;
+  width: 22%;
+  height: 12%;
+  float: right;
+}
+
+#room {
+  float:left;
+  background-color: rgb(207, 186, 133);
+  border-style: ridge;
+  border-color: aquamarine;
+  text-align:center;
+  width:25%;
+  height:49%;
+  opacity: 0.94;
+  overflow: scroll;
+}
+
+button {
+  cursor: pointer;
+  font-weight: bold;
+  border-radius: 4px;
+  background-color: #44B72D; /* Green */
+  border: none;
+  color:  #660033;
+  padding: 8px 6px;
+  text-align: center;
+  display: inline-block;
+  font-size: 10px;
+}
+
+button:hover {
+  background-color: #4CAF50;
+}
+
+#clean {
+  text-align: center;
+  font-weight: bold;
+  background-color:black;
+  opacity: 0.94;
+  color:  white;
+}
+
+#staff {
+  position: relative;
+  top: 2%;
+  border-color: aquamarine;
+  float:right;
+  background-color: rgb(207, 186, 133);
+  border-style: ridge;
+  text-align:center;
+  width:20%;
+  opacity: 0.94;
+  height:40%;
+}
+
+#hot {
+  background-color: red;
+  border: none;
+  color:  #660033;
+  text-align: center;
+  display: inline-block;
+  font-size: 10px;
+  width:20%;
+}
+
+.ssw {
+  background-color: #7CEA38;
+  border: none;
+  color:  #660033;
+  text-align: center;
+  display: inline-block;
+  font-size: 10px;
+  width: 15%;
+}
+
+#lista {
+  border-color: aquamarine;
+  float: right;
+  background-color: rgb(207, 186, 133);
+  border-style: ridge;
+  text-align:center;
+  width:20%;
+  height:45%;
+  overflow: scroll;
+  opacity: 0.94;
+}
+
+#stylez {
+  background-color: black;
+  opacity: 0.9;
+}
