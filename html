@@ -1,20 +1,17 @@
 <html>
   <head>
-    
+    <title>Hotel Hale Da Kine</title>
     <link rel="stylesheet" href="hotelstyle.css">
     
   </head>
   
   <body>
-    <div id="logo">
-      <h1> Hale Da Kine</h1>
-    </div>
     <div id="room">
       <h2>Room 1</h2>
       <input type="text" id="hello">
       <button onclick="GetReady()" id="add">Add people</button>
       <input type="number" id="gohome">
-      <button onclick="CheckOut()">Check Out(Use numbers)</button>
+      <button onclick="CheckOut()">Check Out (Use numbers)</button>
       <ol id='yes'>
       </ol>
       <h3 id = "full"></h3>
@@ -23,9 +20,9 @@
     <div id="room">
       <h2>Room 2</h2>
       <input type="text" id="hello2">
-      <button onclick="GetReady2()" id="add">Add people</button>
+      <button onclick="GetReady2()" id="add2">Add people</button>
       <input type="number" id="gohome2">
-      <button onclick="CheckOut2()">Check Out(Use numbers)</button>
+      <button onclick="CheckOut2()">Check Out (Use numbers)</button>
       <ol id='yes2'></ol>
       <h3 id = "full2"></h3>
       <h2 id="stop2"></h2>
@@ -33,19 +30,42 @@
     <div id="room">
       <h2>Room 3</h2>
       <input type="text" id="hello3">
-      <button onclick="GetReady3()" id="add">Add people</button>
+      <button onclick="GetReady3()" id="add3">Add people</button>
       <input type="number" id="gohome3">
-      <button onclick="CheckOut3()">Check Out(Use numbers)</button>
+      <button onclick="CheckOut3()">Check Out (Use numbers)</button>
       <ol id='yes3'></ol>
       <h3 id = "full3"></h3>
       <h2 id="stop3"></h2>
     </div>
+    
+    <div id="logo">
+      <h1 id="stylez"> Hale Da Kine</h1>
+    </div>
+    <div id="staff">
+      <p id = "clean">
+      MASTER CONTROLS
+       </p>
+      <button class= "ssw" id="sss" onclick="cleaning()">Lock Room 1</button>
+      <button class= "ssw" id="sss2" onclick="cleaning2()">Lock Room 2</button>
+      <button class= "ssw" id="sss3" onclick="cleaning3()">Lock Rooms 3</button>
+      <button class= "ssw" id="sss4" onclick="cleaning4()">Lock Rooms 4</button>
+      <button class= "ssw" id="sss5" onclick="cleaning5()">Lock Rooms 5</button>
+      <button class= "ssw" id="sss6" onclick="cleaning6()">Lock Rooms 6</button>
+      <button id="hot" onclick="hakai()">Check out Room 1</button>
+      <button id="hot" onclick="hakai2()">Check out Room 2</button>
+      <button id="hot" onclick="hakai3()">Check out Room 3</button>
+      <button id="hot" onclick="hakai4()">Check out Room 4</button>
+      <button id="hot" onclick="hakai5()">Check out Room 5</button>
+      <button id="hot" onclick="hakai6()">Check out Room 6</button>
+      <button id="hot" onclick="hakaiMaster()">Check out ALL Rooms</button>
+    </div>
+    
     <div id="room">
       <h2>Room 4</h2>
       <input type="text" id="hello4">
       <button onclick="GetReady4()" id="add4">Add people</button>
       <input type="number" id="gohome4">
-      <button onclick="CheckOut4()">Check Out(Use numbers)</button>
+      <button onclick="CheckOut4()">Check Out (Use numbers)</button>
       <ol id='yes4'></ol>
       <h3 id = "full4"></h3>
       <h2 id="stop4"></h2>
@@ -53,9 +73,9 @@
     <div id="room">
       <h2>Room 5</h2>
       <input type="text" id="hello5">
-      <button onclick="GetReady5()" id="add">Add people</button>
+      <button onclick="GetReady5()" id="add5">Add people</button>
       <input type="number" id="gohome5">
-      <button onclick="CheckOut5()">Check Out(Use numbers)</button>
+      <button onclick="CheckOut5()">Check Out (Use numbers)</button>
       <ol id='yes5'></ol>
       <h3 id = "full5"></h3>
       <h2 id="stop5"></h2>
@@ -63,24 +83,20 @@
     <div id="room">
       <h2>Room 6</h2>
       <input type="text" id="hello6">
-      <button onclick="GetReady6()" id="add">Add people</button>
+      <button onclick="GetReady6()" id="add6">Add people</button>
       <input type="number" id="gohome6">
-      <button onclick="CheckOut6()">Check Out(Use numbers)</button>
+      <button onclick="CheckOut6()">Check Out (Use numbers)</button>
       <ol id='yes6'></ol>
       <h3 id = "full6"></h3>
       <h2 id="stop6"></h2>
     </div>
-    <div id="staff">
-      <p id = "clean">
-      The Rooms are now available
-       </p>
-      <button id="sss" onclick="cleaning()">Lock Rooms for Cleaning</button>
-      <button id="hot" onclick="hakai()">Check out all Rooms</button>
+    
+    <div id="lista">
+      <h2>The List</h2>
+      <button id="helpit" onclick="listing()">See List</button>
+      <ul id="list"></ul>
     </div>
-    <div id="staff">
-      <button onclick="list()">See List</button>
-      <p id="list"></p>
-    </div>
+    
     <script src="scrippt.js"></script>
     
   </body>
